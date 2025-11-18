@@ -1,0 +1,49 @@
+@import url("reset.css");
+@import url("variables.css");
+@import url("./components/header.css");
+
+@font-face {
+  font-family: Sen;
+  src: url("../fonts/sen.ttf");
+}
+
+body {
+  font-family: Sen;
+  color: var(--color-black);
+}
+
+.container {
+  width: var(--max-width);
+  margin: 0 auto;
+  padding: 12px 80px;
+}
+
+/* Global components */
+.btn {
+  border: none;
+  color: var(--color-black);
+  font-size: 18px;
+  padding: 16px 48px;
+  font-weight: bold;
+  transition: 0.3s ease;
+  cursor: pointer;
+  font-family: Sen;
+  text-decoration: none;
+  height: 56px;
+}
+
+.btn-primary {
+  background: var(--color-yellow);
+}
+
+.btn-primary:hover {
+  background: var(--color-yellow-hover);
+}
+
+.btn-secondary {
+  background: var(--color-light);
+}
+
+.btn-secondary:hover {
+  background: var(--color-light-grey);
+}
