@@ -39,11 +39,14 @@
 }
 
 .blog-article-info-title {
+  color: var(--color-black);
+  display: inline-block;
   font-size: 36px;
   font-weight: bold;
   letter-spacing: -2px;
   line-height: 48px;
   margin-bottom: 16px;
+  text-decoration: none;
 }
 
 .blog-categories {
