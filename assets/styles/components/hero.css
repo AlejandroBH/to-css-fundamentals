@@ -1,39 +1,39 @@
 .hero {
-  display: flex;
   align-items: center;
-  background: url("../../images/hero-bg.jpg") no-repeat center;
   background-size: cover;
+  background: url("../../images/hero-bg.jpg") no-repeat center;
+  display: flex;
   height: 100vh;
 }
 
-.hero .hero-title {
+.hero-title {
   color: var(--color-light);
   font-size: 16px;
-  line-height: 20px;
   letter-spacing: 3px;
-  text-transform: uppercase;
+  line-height: 20px;
   margin-bottom: 24px;
+  text-transform: uppercase;
 }
 
-.hero .hero-info {
+.hero-info {
   width: 804px;
 }
 
-.hero .hero-display {
+.hero-display {
   color: var(--color-light);
   margin-bottom: 24px;
 }
 
-.hero .hero-autor {
+.hero-autor {
   color: var(--color-light);
   margin-bottom: 16px;
 }
 
-.hero .hero-autor--mark {
+.hero-autor--mark {
   color: var(--color-yellow);
 }
 
-.hero .hero-description {
+.hero-description {
   color: var(--color-light);
   margin-bottom: 48px;
 }

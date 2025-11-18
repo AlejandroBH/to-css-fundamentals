@@ -1,39 +1,39 @@
-header {
+.header {
   background: var(--color-black);
   position: fixed;
   width: 100%;
 }
 
-header .container {
-  height: 80px;
-  display: flex;
-  justify-content: space-between;
+.header .container {
   align-items: center;
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
 }
 
-header .header-logo {
+.header-logo {
   color: var(--color-light);
   text-decoration: none;
   transition: 0.3s ease;
 }
 
-header .header-logo:hover {
+.header-logo:hover {
   color: var(--color-yellow);
 }
 
-header .header-menu {
+.header-menu {
   display: flex;
-  list-style: none;
   gap: 24px;
+  list-style: none;
 }
 
-header .header-link {
-  text-decoration: none;
-  font-size: 16px;
+.header-link {
   color: var(--color-light);
+  font-size: 16px;
+  text-decoration: none;
   transition: 0.3s ease;
 }
 
-header .header-link:hover {
+.header-link:hover {
   color: var(--color-yellow);
 }
