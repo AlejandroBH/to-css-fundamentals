@@ -1,0 +1,17 @@
+.footer {
+  background: var(--color-black);
+  width: 100%;
+}
+
+.footer .container {
+  align-items: center;
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+.footer-info {
+  color: var(--color-medium-grey);
+}
