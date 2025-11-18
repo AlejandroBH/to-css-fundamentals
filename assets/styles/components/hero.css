@@ -1,0 +1,39 @@
+.hero {
+  display: flex;
+  align-items: center;
+  background: url("../../images/hero-bg.jpg") no-repeat center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.hero .hero-title {
+  color: var(--color-light);
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+.hero .hero-info {
+  width: 804px;
+}
+
+.hero .hero-display {
+  color: var(--color-light);
+  margin-bottom: 24px;
+}
+
+.hero .hero-autor {
+  color: var(--color-light);
+  margin-bottom: 16px;
+}
+
+.hero .hero-autor--mark {
+  color: var(--color-yellow);
+}
+
+.hero .hero-description {
+  color: var(--color-light);
+  margin-bottom: 48px;
+}

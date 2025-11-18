@@ -1,6 +1,7 @@
 @import url("reset.css");
 @import url("variables.css");
 @import url("./components/header.css");
+@import url("./components/hero.css");
 
 @font-face {
   font-family: Sen;
@@ -46,4 +47,16 @@ body {
 
 .btn-secondary:hover {
   background: var(--color-light-grey);
+}
+
+.display {
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: -2px;
+}
+
+.body-1 {
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0px;
 }

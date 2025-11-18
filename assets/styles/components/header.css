@@ -1,5 +1,7 @@
 header {
   background: var(--color-black);
+  position: fixed;
+  width: 100%;
 }
 
 header .container {
