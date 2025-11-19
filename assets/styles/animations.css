@@ -1,0 +1,18 @@
+@keyframes animate-1 {
+  0% {
+    filter: blur(1px);
+  }
+}
+
+@keyframes animate-2 {
+  0% {
+    scale: 1.05;
+    transform: translateY(1px);
+  }
+}
+
+@keyframes animate-3 {
+  0% {
+    scale: 1.05;
+  }
+}
