@@ -18,8 +18,9 @@ body {
 
 .container {
   margin: 0 auto;
+  max-width: var(--max-width);
   padding: 12px 80px;
-  width: var(--max-width);
+  width: 100%;
 }
 
 .logo {
@@ -84,4 +85,29 @@ body {
 
 .animate-3:hover {
   animation: animate-3 0.5s ease;
+}
+
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+}
+
+.menu-toggle span {
+  background: white;
+  border-radius: 4px;
+  height: 3px;
+  margin: 3px 0;
+  width: 25px;
+}
+
+@media screen and (width <= 1024px) {
+  .container {
+    padding: 12px 40px;
+  }
+}
+
+@media screen and (width <= 768px) {
+  .menu-toggle {
+    display: flex;
+  }
 }

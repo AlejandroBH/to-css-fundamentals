@@ -27,3 +27,25 @@
 .header-link:hover {
   color: var(--color-yellow);
 }
+
+@media screen and (width <= 768px) {
+  .header .container {
+    flex-direction: column;
+    height: auto;
+    padding: 12px 40px;
+  }
+
+  .header .container h1 {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .header-menu {
+    display: none;
+    flex-direction: column;
+    margin-bottom: 24px;
+    margin-top: 24px;
+  }
+}

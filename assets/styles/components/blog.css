@@ -6,7 +6,7 @@
 .blog .container {
   display: grid;
   gap: 144px;
-  grid-template-columns: 1fr 298px;
+  grid-template-columns: 1fr 25%;
   padding-bottom: 0px;
   padding-top: 0px;
 }
@@ -92,4 +92,31 @@
 .active {
   background: var(--color-yellow);
   border: 1px solid var(--color-yellow);
+}
+
+@media screen and (width < 1280px) {
+  .blog {
+    margin-bottom: 80px;
+    margin-top: 80px;
+  }
+
+  .blog .container {
+    gap: 80px;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (width <= 768px) {
+  .blog-article {
+    flex-direction: column-reverse;
+  }
+
+  .blog .container {
+    padding: 40px;
+  }
+
+  .blog-article-image {
+    height: 100%;
+    width: 100%;
+  }
 }
