@@ -28,6 +28,10 @@
   color: var(--color-yellow);
 }
 
+.active-menu {
+  display: flex !important;
+}
+
 @media screen and (width <= 768px) {
   .header .container {
     flex-direction: column;
